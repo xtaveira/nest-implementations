@@ -1,0 +1,120 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+
+div{
+    display: flex;
+    justify-content: baseline;
+    width: 100%;
+    height: 100%;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+div header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 45%;
+    height: 100vh;
+
+    padding: 0 1rem;
+}
+
+.box{
+    background-color: var(--bg-cards);
+    border-radius: 0.75rem;
+}
+
+.profile{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img{
+    object-fit: cover;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 1.25rem;
+}
+
+.info{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1.8rem;
+}
+
+.info img{
+    width: 1rem;
+    height: auto;
+    stroke: var(--text-color);
+}
+.info p{
+    display: flex;
+    align-items: center;
+}
+
+.info span, a{
+    margin-left: 0.5rem;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.technologies{
+    height: 20%;
+}
+.technologies h1{
+    margin: 1rem 1rem;
+}
+
+div main{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+div main section{
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem 1rem;
+}
+
+.title{
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    height: min-content;
+}
+
+.myProject{
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-project{
+    width: 50%;
+    height: 100%;
+}
+
+.box-project{
+    width: 49%;
+}
