@@ -3,7 +3,7 @@ import './style.css'
 
 //importando imagens assets
 import favicon from './assets/favicon.ico'
-import briefcase from './assets/briefcase.svg'
+import briefcase from './assets/star.svg'
 import folder from './assets/folder.svg'
 import gitbranch from './assets/git-branch.svg'
 import github from './assets/github.svg'
